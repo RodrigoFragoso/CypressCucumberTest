@@ -1,0 +1,25 @@
+{
+    "projectId": "3b7z5w",
+    "defaultCommandTimeout": 60000,
+    "pageLoadTimeout": 10000,
+    "viewportWidth": 1400,
+    "viewportHeight": 1000,
+    "baseUrl": "https://www.saucedemo.com/index.html",
+    "env": {
+        "host": "https://www.saucedemo.com/index.html",
+        "username": "standard_user",
+        "password": "secret_sauce"
+    },
+
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/results-report",
+        "overwrite": true,
+        "timestamp": true,
+        "html": true,
+        "json": true,
+        "reportTitle": "Blade Dashboard - Testes E2E",
+        "reportPageTitle": "Blade Dashboard - Testes E2E",
+        "reportFilename": "e2e-blade"
+    }
+}
